@@ -22,5 +22,5 @@ This project scrapes a webpage using Puppeteer (Node.js) and serves the data thr
             http://<YOUR_EC2_PUBLIC_IP>:5000
 
 # Output 
- ![image alt](https://github.com/alekyagandem/scraper-app/blob/d2d02da6d24d8d2b8495377f17c9ad63bdd26777/output.png)
+ ![image alt](https://github.com/alekyagandem/scraper-app/blob/1eea9a20b96c44cf052f578230514db59b29b49b/output.png)
 
