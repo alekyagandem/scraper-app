@@ -1,0 +1,24 @@
+# Web Scraper with Node.js & Flask
+
+# Overview
+This project scrapes a webpage using Puppeteer (Node.js) and serves the data through an API using Flask (Python). It runs inside a Docker container with a multi-stage build.
+
+# Technologies Used
+   Node.js + Puppeteer (for web scraping)
+   Python + Flask (for serving scraped data)
+   Docker (for containerization)
+   AWS EC2 (for deployment)
+
+# Setup Instructions  
+
+1. Clone the Repository
+            git clone https://github.com/alekyagandem/scraper-app.git
+            cd scraper-app
+2.  Build and Run the Docker Container
+            docker build -t scraper-app .
+            docker run -d -p 5000:5000 -e SCRAPE_URL="https://example.com" scraper-app
+
+3.  Access the API
+            http://<YOUR_EC2_PUBLIC_IP>:5000
+
+
