@@ -21,4 +21,7 @@ This project scrapes a webpage using Puppeteer (Node.js) and serves the data thr
 3.  Access the API
             http://<YOUR_EC2_PUBLIC_IP>:5000
 
+# Output 
+ <img width="1710" alt="Image" src="https://github.com/user-attachments/assets/5db6c8f0-29a2-4efa-ac1c-cc416f6492c0" />
+
 
